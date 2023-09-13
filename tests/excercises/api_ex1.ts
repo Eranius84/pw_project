@@ -11,18 +11,17 @@
 
 //interface  for data set 
 
-    interface myApi {
+  export  interface myApi {
         username: string
         password: string
     }
-
-
-
+    
 //create dataset 
-    const data1: myApi = {
-        username: "user1",
-        password:"password1"
-    }
+const data1: myApi = {
+    username: "user1",
+    password:"password1"
+}
+  
     //check input data
     function checkUser(loginData:myApi) {
         if(loginData.username !== "user1") {

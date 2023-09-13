@@ -1,3 +1,4 @@
+"use strict";
 // "username":"user1",
 //"username":"password1"
 //{
@@ -5,6 +6,7 @@
 //"password":"password1"
 //}
 //http://playground.kinemadev.com:8000/authentication/login
+Object.defineProperty(exports, "__esModule", { value: true });
 //create dataset 
 var data1 = {
     username: "user1",
@@ -22,4 +24,3 @@ function checkUser(loginData) {
     console.log("correct user");
 }
 checkUser(data1);
-sds
