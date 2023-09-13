@@ -4,7 +4,7 @@ interface IsPerson {
     speak(a: string): string;
 }
 
-const me: IsPerson = {
+export const me: IsPerson = {
     name: 'Eran',
     age: 38,
     speak(text: string) {
