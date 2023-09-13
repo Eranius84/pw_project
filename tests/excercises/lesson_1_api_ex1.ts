@@ -1,16 +1,3 @@
-
-
-
-// "username":"user1",
-    //"username":"password1"
-//{
-   // "username":"user1",
-    //"password":"password1"
-//}
-//http://playground.kinemadev.com:8000/authentication/login
-
-//interface  for data set 
-
   export  interface myApi {
         username: string
         password: string
