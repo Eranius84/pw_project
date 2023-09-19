@@ -1,4 +1,4 @@
-import { test } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 import { request } from '@playwright/test';
 
 
@@ -22,11 +22,13 @@ test('valid user status code and text', async ({ request }) => {
             "password": "xxx1",
         } as UserData //synthax for implelent as intterface
       });
-    const respBody = await userData.json();
+      expect(userData.status).toBe(200);
+      expect(userData).toBeTruthy();
+    /*const respBody = await userData.json();
     console.log(JSON.stringify(respBody));
     //expect(respBody.username).toBe("user1");
     //expect(respBody.password).toBe("password1");
-   // expect(respBody.access_token).toBe
+   // expect(respBody.access_token).toBe*/
     });
 
 
