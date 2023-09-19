@@ -5,13 +5,13 @@
     
 //create dataset 
 const data1: myApi = {
-    username: "user1",
+    username: "xxx1",
     password:"password1"
 }
 
 // user that exist but forbidden from logging in
 const data2: myApi = {
-    username: "user2",
+    username: "xxx2",
     password:"password2"
 }
 //STATUS CODES SUPPORT 

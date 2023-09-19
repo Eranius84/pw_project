@@ -18,8 +18,8 @@ test('valid user status code and text', async ({ request }) => {
     //initial request data check
     const userData = await request.post(testUrl, {
         data: {
-            "username": "user1",
-            "password": "password1",
+            "username": "xxx1",
+            "password": "xxx1",
         } as UserData //synthax for implelent as intterface
       });
     const respBody = await userData.json();
