@@ -8,6 +8,7 @@ export default defineConfig({
   reporter: 'html',
   use: {
     trace: 'on-first-retry',
+    baseURL:'http://playground.kinemadev.com:8000'
   },
   projects: [
     {
@@ -20,6 +21,7 @@ export default defineConfig({
     },
 
   ],
+  
 
   /* Run your local dev server before starting the tests */
   // webServer: {
